@@ -31,5 +31,6 @@ var viewCart= () =>{
         str+=`cart[i].itemName at $${cart[i].itemPrice}`
       }
     }
+    return str;
   }
 }
