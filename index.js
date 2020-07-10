@@ -16,4 +16,4 @@ var addToCart= name =>{
   return `${name} has been added to your cart.`
 }
 
-var
+
