@@ -68,8 +68,8 @@ var placeOrder= ccNumber =>{
     return `Sorry, we don't have a credit card on file for you.`
   }
   else {
-    total()
+    var price= total()
     Object.assign(cart,{})
-    return `your`
+    return `Your total cost is ${price}, which will be charged to the card ${ccNumber}`
   }
 }
