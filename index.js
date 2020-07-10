@@ -41,5 +41,5 @@ var viewCart= () =>{
 }
 
 var total= () =>{
-  return cart.length;
+  return (cart.length)
 }
