@@ -28,7 +28,7 @@ var viewCart= () =>{
         str+=`and ${cart[i].itemName} at $${cart[i].itemPrice}.`
       }
       else{
-        str+=`cart[i].itemName at $${cart[i].itemPrice}, `
+        str+=`${cart[i].itemName} at $${cart[i].itemPrice}, `
       }
     }
     return str;
