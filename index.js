@@ -22,10 +22,13 @@ var viewCart= () =>{
     return `Your shopping cart is empty.`
   }
   else{
-    var str=[]
+    var str="In your cart, you have "
     for(let i=0; i<cart.length; i+=1){
       if(i===(cart.length-1)){
-
+        str+=`and ${cart[i].itemName} at $${cart[i].itemPrice}.`
+      }
+      else{
+        str+=`cart[i].itemName at $${cart[i].itemPrice}`
       }
     }
   }
