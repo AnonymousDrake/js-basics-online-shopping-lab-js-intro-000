@@ -69,7 +69,7 @@ var placeOrder= ccNumber =>{
   }
   else {
     var price= total()
-    Object.assign(cart,{})
+    delete cart
     return `Your total cost is $${price}, which will be charged to the card ${ccNumber}.`
   }
 }
