@@ -8,3 +8,11 @@ function setCart(c) {
   cart = c;
   return cart;
 }
+
+var addToCart= name =>{
+  var obj={itemName: name,
+           itemPrice:
+  }
+}
+
+var 
