@@ -41,5 +41,9 @@ var viewCart= () =>{
 }
 
 var total= () =>{
-  return (cart.length)
+  var price=0
+  for(let i=0; i<cart.length;i+=1){
+    price+=cart[i].itemPrice
+  }
+  return price
 }
