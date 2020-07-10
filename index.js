@@ -49,10 +49,16 @@ var total= () =>{
 }
 
 var removeFromCart= name =>{
+  var Verify=0
   for(let i=0; i<cart.length; i+=1){
     if(cart[i].itemName===name){
       delete cart[i];
+      Verify+=1
     }
   }
-  return cart
+  if(Verify===0){
+    return `That item is not in your cart.`
+  }else{
+    return cart
+  }
 }
