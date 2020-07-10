@@ -47,3 +47,7 @@ var total= () =>{
   }
   return price
 }
+
+var removeFromCart= name =>{
+  delete cart.name
+}
