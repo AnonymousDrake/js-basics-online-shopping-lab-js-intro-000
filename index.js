@@ -62,3 +62,9 @@ var removeFromCart= name =>{
     return cart
   }
 }
+
+var placeOrder= ccNumber =>{
+  if(ccNumber===null){
+    return `Sorry, we don't have a credit card on file for you.`
+  }
+}
