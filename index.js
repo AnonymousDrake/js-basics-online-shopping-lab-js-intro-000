@@ -39,3 +39,7 @@ var viewCart= () =>{
     return str;
   }
 }
+
+var total= () =>{
+  return cart.length;
+}
