@@ -15,4 +15,4 @@ var addToCart= name =>{
   }
 }
 
-var 
+var
