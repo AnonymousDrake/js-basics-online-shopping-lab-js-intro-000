@@ -19,6 +19,14 @@ var addToCart= name =>{
 
 var viewCart= () =>{
   if(cart[0]==="null"){
-    return `Your cart is empty.`
+    return `Your shopping cart is empty.`
+  }
+  else{
+    var str=[]
+    for(let i=0; i<cart.length; i+=1){
+      if(i===(cart.length-1)){
+        
+      }
+    }
   }
 }
