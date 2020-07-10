@@ -52,7 +52,7 @@ var removeFromCart= name =>{
   var Verify=0
   for(let i=0; i<cart.length; i+=1){
     if(cart[i].itemName===name){
-      delete cart[i];
+      cart.splice(i,1)
       Verify+=1
     }
   }
