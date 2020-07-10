@@ -69,7 +69,7 @@ var placeOrder= ccNumber =>{
   }
   else {
     var price= total()
-    delete cart
+    cart=null
     return `Your total cost is $${price}, which will be charged to the card ${ccNumber}.`
   }
 }
