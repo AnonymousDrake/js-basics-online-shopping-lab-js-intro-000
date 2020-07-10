@@ -16,3 +16,9 @@ var addToCart= name =>{
   cart.push(obj)
   return `${name} has been added to your cart.`
 }
+
+var viewCart= () =>{
+  if(cart[0]==="null"){
+    return `Your cart is empty.`
+  }
+}
